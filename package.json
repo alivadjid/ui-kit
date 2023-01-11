@@ -2,6 +2,9 @@
   "name": "viewer-img-vue-tranning-package",
   "version": "0.0.1",
   "type": "module",
+  "publishConfig": {
+    "@alivadjid:registry": "https://npm.pkg.github.com"
+  },
   "exports": {
     ".": "./dist/index.js",
     "./styles.css": "./dist/style.css"
