@@ -1,8 +1,12 @@
 {
-  "name": "viewer-img-vue-tranning-package",
+  "name": "@alivadjid/ui-kit",
   "type": "module",
   "publishConfig": {
     "@alivadjid:registry": "https://npm.pkg.github.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alivadjid/ui-kit.git"
   },
   "exports": {
     ".": "./dist/index.js",
@@ -19,7 +23,8 @@
   "scripts": {
     "dev": "vite",
     "build": "vue-tsc && vite build",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "test": "exit 0"
   },
   "dependencies": {
     "vue": "^3.2.45"
