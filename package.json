@@ -1,6 +1,8 @@
 {
   "name": "@alivadjid/ui-kit",
   "type": "module",
+  "version": "0.0.1",
+  "description": "ui-kit",
   "publishConfig": {
     "@alivadjid:registry": "https://npm.pkg.github.com"
   },
